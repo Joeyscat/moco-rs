@@ -24,5 +24,15 @@
                 }
             }
         }
+    },
+    {
+        "description": "demo-jojo",
+        "request": {
+            "method": "get",
+            "uri": "/demo/jojo"
+        },
+        "response": {
+            "text": "JOJO"
+        }
     }
 ]

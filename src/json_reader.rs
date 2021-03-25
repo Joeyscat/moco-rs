@@ -49,7 +49,7 @@ fn _load_map() {
 
 #[cfg(test)]
 mod tests {
-    use crate::json_reader::{load_map, read_api_from_file};
+    use crate::json_reader::{_load_map, read_api_from_file};
 
     #[test]
     fn test_read_api_from_file() {
@@ -59,7 +59,6 @@ mod tests {
 
     #[test]
     fn test_load_map() {
-        load_map()
+        _load_map()
     }
 }
-
